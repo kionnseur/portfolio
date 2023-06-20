@@ -1,0 +1,32 @@
+body{
+    transition-duration: .4s;
+
+}
+nav{
+    background-color: #212529;
+}
+.white-bc{
+
+    background-color: white;
+
+}
+.cardParent{
+    max-width: 400px;
+}
+@media (max-width: 500px) {
+    .cardParent{
+        max-width: 100vh;
+    }
+}
+.container {
+    height: auto;
+    max-width: 100%;
+}
+.container :nth-of-type(0){
+    height: 100vh;
+}
+
+
+.container:nth-of-type(2n-1){
+    background-color: #e7e7ff30;
+}
